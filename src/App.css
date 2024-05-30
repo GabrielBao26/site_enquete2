@@ -39,7 +39,7 @@ header nav a:hover{
 
 main{
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
   justify-content: center;
 }
 
@@ -78,6 +78,28 @@ button{
 
 button:hover{
   background-color: rgb(0, 70, 128);
+}
+
+.box-enquete{
+  background-color: rgb(1, 55, 82);
+  border-radius: 10px;
+  padding: 1px 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0px 0px 3px #fff;
+  
+}
+
+.box-enquetes{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: unset;
+  width: unset;
+  box-shadow: unset;
+}
+
+ul{
+  list-style: none;
 }
 
 footer{

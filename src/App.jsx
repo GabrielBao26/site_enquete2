@@ -11,7 +11,7 @@ function App(){
       <main>
         <Rotas></Rotas>
       </main>
-      <Footer></Footer>
+      {/*<Footer></Footer> */}
     </>
   );
 }
